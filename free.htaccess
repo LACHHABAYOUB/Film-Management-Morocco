@@ -1,0 +1,14 @@
+# fichier .htaccess pour .free.fr
+# ----------------------------------
+# minimum : passer en php 5
+php 1
+# annonce erreur 404
+# ErrorDocument 404 /html/no_page.html
+# ----------------------------------
+# redirection Erreur interne serveur 500
+# ErrorDocument 500 http://www.ceck.org/
+# ----------------------------------
+# annonce erreur 403
+# ErrorDocument 403 "L'accès à ce répertoire est interdit".
+# ----------------------------------
+# FIN

@@ -1,0 +1,90 @@
+html {
+font-size: 100%;
+}
+body {
+margin: 0;
+padding: 5px;
+font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif; /* 3 */
+font-size: .8em; /* .8em */
+line-height: 1.25; /* 1.25 */
+color: #000000;
+background: #ece9d8;
+}
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+h1, h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+}
+h1 {
+text-align: center;
+font-size: 1.75em;
+font-style: italic;
+color: #0000dd;
+}
+h2 {
+font-size: 1.45em;
+color:#0000d8;
+margin-bottom:10px;
+}
+h3 {
+font-size: 1.15em; /* 1.2em */
+}
+h4 {
+font-size: 1em;
+}
+/* Paragraphes */
+p {
+font-size: 0.95em; /* 1em */
+margin: .75em 0;
+text-align: justify;
+}
+/* Liens et images */
+a {
+color: #FF6533;
+text-decoration: none;
+}
+a:hover, a:focus {
+color: #FF4C00;
+text-decoration: underline;
+}
+a img {
+border: none;
+}
+/*	Styles	*/
+.infos  img{
+margin-bottom: -8px;
+}
+.infos  h5{
+margin-top: 5px;
+}
+.infos  h2{
+color: #cc0022;
+}
+/*	Tables	*/
+#help_tablot {
+width:460px;
+margin-bottom:20px;
+border-collapse:collapse;
+color:#000000;
+}
+#help_tablot td {
+font-size: 0.95em;
+margin: 0;
+text-align:justify;
+}
+#help_tablot td h5 {
+padding-bottom:20px;
+font-size: 1.15em;
+color:#0000a8;
+margin: 0;
+}
+#help_tablot tr.alt td {
+color:#111111;
+background-color:#ffff88;
+}
+#help_tablot td.money {
+text-align:right;
+}

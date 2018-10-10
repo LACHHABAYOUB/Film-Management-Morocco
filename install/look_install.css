@@ -1,0 +1,54 @@
+
+
+/* ##################################################################
+----------				BODY et présentation globale			  ----------
+################################################################## */
+body {
+	background: #494949;
+}
+.okicon img {
+	margin: 0 0 -10px 0;
+}
+/* ##################################################################
+----------					BLOC installBloc						  ----------
+################################################################## */
+#installBloc {
+	width: 630px;
+	margin-top: 50px;
+	margin-left: 120px;
+	margin-right: auto;
+	border: 2px navy solid ;
+	background: url(backinstall_top.png) top left no-repeat;
+}
+
+/* ##################################################################
+----------					BLOC installContainer				  ----------
+################################################################## */
+#installContainer {
+	width: 100%;
+	overflow: hidden;
+}
+#installContainer img {
+	padding: 8px 30px;
+}
+/* ##################################################################
+----------						BLOC de CONTENU					  ----------
+################################################################## */
+#installContent {
+	background: #ece9d8 ;
+	color: #332211;
+	padding: 0 20px 10px 20px;
+}
+#installContent p {
+	line-height: 1.4;
+}
+#installContent a {
+	color: black;
+}
+#installContent a:hover {
+	color: red;
+}
+#installContent > :first-child {
+	margin-top: 10px;
+}
+

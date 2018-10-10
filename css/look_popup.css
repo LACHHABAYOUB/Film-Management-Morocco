@@ -1,0 +1,148 @@
+html {
+	font-size: 100%;
+}
+body {
+margin: 0;
+	background: #000000;
+}
+/* entête */
+#page_head h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #aaaaaa;
+	padding-left: 20px;
+}
+#information p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	color: #888888;
+	padding-left: 20px;
+}
+.blanc {
+	color: #ffffff;
+}
+.gris {
+	color: #888888;
+}
+.jaune {
+	color: #ffff00;
+}
+/* ------- STYLES POUR les FORMULAIRES ------- */
+/*
+http://www.guiderdoni.net/Un-formulaire-en-pur-CSS.html
+http://www.dynamicdrive.com/style/csslibrary/item/css-tableless-form/ --- */
+.form_container {
+	width: 580px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 0;
+}
+.form_container p{
+	width: 550px;
+	height: 20px;
+	padding-left: 155px;
+}
+.form_container input,select {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif; /* 'Trebuchet MS', Helvetica, sans-serif | Courier New */
+	font-size : 12px;
+	color : #ffffff;
+	background-color: #666666;
+	border-width: 3px;
+	padding-bottom : 0;
+	padding-top : 0;
+	padding-left : 1px;
+}
+.form_container textarea {
+	font-family: Courier New; /* 'Trebuchet MS', Helvetica, sans-serif */
+	font-size : 12px;
+	color : #0000c0;
+	background-color : #c8c8c8;
+	padding-left : 3px;
+}
+.soumet {
+	margin: 5px 0 ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+float: right;
+color: red;
+margin-right: 200px;	/*		600px		[lié à width de .form_container p]		*/
+width: 350px;
+}
+.lib_field {
+	float: right;
+	background: #484848;
+	color : #44ff44;
+	margin-right: 200px;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-size: 0.9em;
+	width: 350px;
+}
+.form_container label{
+	float: left;
+	border-bottom: 1px dashed yellow;
+	margin-left: -155px;
+	width: 150px;
+	text-align: left;
+	color: yellow;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.small { /*width of text boxes. IE6 does not understand this attribute*/
+width: 100px;
+}
+.medium  { /*width of text boxes. IE6 does not understand this attribute*/
+width: 200px;
+}
+.large { /*width of text boxes. IE6 does not understand this attribute*/
+width: 350px;
+}
+/* ################### STYLES pour les MESSAGES ################## */
+.feed_can {
+	background: url(box_pop/pop_feed_top.png) no-repeat center top;
+	padding-top: 35px !important;
+	width: 500px;
+/*	float: left;			BUGGGGGGGGGGGGGG		*/
+	margin-left: 20px;
+}
+.feedback {
+	background: url(box_pop/pop_feed_bottom.png) center bottom no-repeat;
+	padding-bottom: 30px;
+}
+.feedback  p {
+	margin: 0 45px 0 70px;
+}
+.warn_can {
+	background: url(box_pop/pop_warn_top.png) no-repeat center top;
+	padding-top: 35px !important;
+	width: 500px;
+/*	float: left;			BUGGGGGGGGGGGGGG		*/
+	margin-left: 20px;
+}
+.warning {
+	background: url(box_pop/pop_warn_bottom.png) center bottom no-repeat;
+	padding-bottom: 30px;
+}
+.warning  p {
+	margin: 0 45px 0 70px;
+	color: yellow;
+}
+.info_can {
+	background: url(box_pop/pop_info_top.png) no-repeat center top;
+	padding-top: 35px !important;
+	width: 500px;
+/*	float: left;			BUGGGGGGGGGGGGGG		*/
+	margin-left: 20px;
+}
+.information {
+	background: url(box_pop/pop_info_bottom.png) center bottom no-repeat;
+	padding-bottom: 30px;
+}
+.information p {
+	margin: 0 45px 0 70px;
+}

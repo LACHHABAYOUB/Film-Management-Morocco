@@ -1,0 +1,16 @@
+# fichier .htaccess standard
+# ----------------------------------
+# passer en php 5 (free.fr seulement)
+# php 1
+# annonce erreur 404
+# ErrorDocument 404 /html/no_page.html
+# ----------------------------------
+# redirection Erreur interne serveur 500
+ErrorDocument 500 http://www.ceck.org/
+# ----------------------------------
+# annonce erreur 403
+# ErrorDocument 403 "L'accès à ce répertoire est interdit".
+# ----------------------------------
+# déclaration d'encodage (si supporté par le serveur)
+# AddDefaultCharset utf-8
+# FIN

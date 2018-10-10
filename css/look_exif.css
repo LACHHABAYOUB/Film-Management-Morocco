@@ -1,0 +1,41 @@
+html {
+	font-size: 100%;
+}
+body {
+margin: 0;
+	background: #000000;
+}
+/* entete */
+#page_head p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #ffffff;
+	padding-left: 10px;
+}
+#exif {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	margin-left: 25px;
+	color: #ffffff;
+	width:340px;
+	border-collapse:collapse;
+}
+#exif td, #exif th {
+	font-size:0.85em;
+	color:#bbffbb;
+	border:1px solid #ffff00;
+	padding:3px 7px 2px 7px;
+}
+#exif th {
+	font-size:1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#444444;
+	color:#ffff44;
+}
+#exif tr.alt td {
+	color:#ffffff;
+	background-color:#333333;
+}

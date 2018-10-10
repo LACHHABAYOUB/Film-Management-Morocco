@@ -1,0 +1,139 @@
+/* http://css-tricks.com/examples/ButtonMaker/#
+étèçàpù							albums	audio		image		video		ButtonMaker
+Top Gradient Color			aaaaaa	eda8a0	a0eda0	A1A7ED	3e779d
+Bottom Gradient Color		444444	ef5c4f	3aef3a	4F5CEF	65a9d7
+Top Border Color				000000	ff0000	008000	0000ff	96d1f8
+Hover Background Color		b8b8b8	e5b3ae	c8e0c8	AEB3E5	28597a
+Text Color						ffffff	000000	000000	000000	000000
+Hover Text Color				000000	000000	000000	000000	cccccc
+Active Background Color		666666	e86c60	60e860	616CE8	1b435e
+*/
+
+.grey_button {
+border-top: 2px solid #000000;
+background: #444444;
+background: -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#444444));
+background: -webkit-linear-gradient(top, #aaaaaa, #444444);
+background: -moz-linear-gradient(top, #aaaaaa, #444444);
+background: -ms-linear-gradient(top, #aaaaaa, #444444);
+background: -o-linear-gradient(top, #aaaaaa, #444444);
+padding: 5px 15px 8px 15px;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+-webkit-box-shadow: rgba(0,0,0,2) 0 2px 0;
+-moz-box-shadow: rgba(0,0,0,2) 0 2px 0;
+box-shadow: rgba(0,0,0,2) 0 2px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: #ffffff;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.grey_button:hover {
+border-top-color: #b8b8b8;
+background: #b8b8b8;
+color: #880000;
+text-decoration: none;
+}
+.grey_button:active {
+border-top-color: #666666;
+background: #666666;
+}
+.red_button {
+border-top: 2px solid #ff0000;
+background: #ef5c4f;
+background: -webkit-gradient(linear, left top, left bottom, from(#eda8a0), to(#ef5c4f));
+background: -webkit-linear-gradient(top, #eda8a0, #ef5c4f);
+background: -moz-linear-gradient(top, #eda8a0, #ef5c4f);
+background: -ms-linear-gradient(top, #eda8a0, #ef5c4f);
+background: -o-linear-gradient(top, #eda8a0, #ef5c4f);
+padding: 5px 15px 8px 15px;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+-webkit-box-shadow: rgba(0,0,0,2) 0 2px 0;
+-moz-box-shadow: rgba(0,0,0,2) 0 2px 0;
+box-shadow: rgba(0,0,0,2) 0 2px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: #ffffff;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.red_button:hover {
+border-top-color: #e5b3ae;
+background: #e5b3ae;
+color: #880000;
+text-decoration: none;
+}
+.red_button:active {
+border-top-color: #e86c60;
+background: #e86c60;
+}
+.green_button {
+border-top: 2px solid #008000;
+background: #3aef3a;
+background: -webkit-gradient(linear, left top, left bottom, from(#a0eda0), to(#3aef3a));
+background: -webkit-linear-gradient(top, #a0eda0, #3aef3a);
+background: -moz-linear-gradient(top, #a0eda0, #3aef3a);
+background: -ms-linear-gradient(top, #a0eda0, #3aef3a);
+background: -o-linear-gradient(top, #a0eda0, #3aef3a);
+padding: 5px 15px 8px 15px;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+-webkit-box-shadow: rgba(0,0,0,2) 0 2px 0;
+-moz-box-shadow: rgba(0,0,0,2) 0 2px 0;
+box-shadow: rgba(0,0,0,2) 0 2px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: #ffffff;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.green_button:hover {
+border-top-color: #c8e0c8;
+background: #c8e0c8;
+color: #880000;
+text-decoration: none;
+}
+.green_button:active {
+border-top-color: #60e860;
+background: #60e860;
+}
+.blue_button {
+border-top: 2px solid #0000ff;
+background: #4F5CEF;
+background: -webkit-gradient(linear, left top, left bottom, from(#A1A7ED), to(#4F5CEF));
+background: -webkit-linear-gradient(top, #A1A7ED, #4F5CEF);
+background: -moz-linear-gradient(top, #A1A7ED, #4F5CEF);
+background: -ms-linear-gradient(top, #A1A7ED, #4F5CEF);
+background: -o-linear-gradient(top, #A1A7ED, #4F5CEF);
+padding: 5px 15px 8px 15px;
+-webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
+-webkit-box-shadow: rgba(0,0,0,2) 0 2px 0;
+-moz-box-shadow: rgba(0,0,0,2) 0 2px 0;
+box-shadow: rgba(0,0,0,2) 0 2px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: #ffffff;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.blue_button:hover {
+border-top-color: #AEB3E5;
+background: #AEB3E5;
+color: #880000;
+text-decoration: none;
+}
+.blue_button:active {
+border-top-color: #616CE8;
+background: #616CE8;
+}
